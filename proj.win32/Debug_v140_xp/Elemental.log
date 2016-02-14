@@ -1,0 +1,30 @@
+﻿Build started 14-Feb-2016 02:28:23 AM.
+     1>Project "E:\STORAGE\Projects\Elemental\Source\proj.win32\Elemental.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"../../Oxygine/oxygine-framework//oxygine/src" /I../../Oxygine//SDL/include /I"../../Oxygine/oxygine-framework//oxygine/third_party/win32/pthreads/include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug_v140_xp\\" /Fd"Debug_v140_xp\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\TravelBar.cpp
+         TravelBar.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\STORAGE\Projects\Elemental\Source\proj.win32\Debug_v140_xp\Elemental.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"../../Oxygine/oxygine-framework//oxygine/third_party/win32/libraries" /LIBPATH:"../../Oxygine/oxygine-framework//libs" libcurl_imp.lib "libjpeg-2015.lib" "libpng-2015.lib" libzlib.lib opengl32.lib pthreadVCE2.lib SDL2.lib SDL2main.lib libcurl_imp.lib libjpeg.lib libpng.lib libzlib.lib opengl32.lib pthreadVCE2.lib SDL2.lib SDL2main.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:\STORAGE\Projects\Elemental\Source\proj.win32\Debug_v140_xp\Elemental.pdb" /SUBSYSTEM:WINDOWS,"5.01" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\STORAGE\Projects\Elemental\Source\proj.win32\Debug_v140_xp\Elemental.lib" /MACHINE:X86 /ignore:4099 Debug_v140_xp\entry_point.obj
+         Debug_v140_xp\Character.obj
+         Debug_v140_xp\Game.obj
+         Debug_v140_xp\Item.obj
+         Debug_v140_xp\Location.obj
+         Debug_v140_xp\Player.obj
+         Debug_v140_xp\resources.obj
+         Debug_v140_xp\setup.obj
+         Debug_v140_xp\Ship.obj
+         Debug_v140_xp\Space.obj
+         Debug_v140_xp\TravelBar.obj
+         E:\STORAGE\Projects\Elemental\Source\proj.win32\Debug_v140_xp\oxygine_d.lib
+     1>entry_point.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+         oxygine_d.lib(jerror.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+     1>entry_point.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+         Generating code
+         Finished generating code
+         Elemental.vcxproj -> E:\STORAGE\Projects\Elemental\Source\proj.win32\Debug_v140_xp\Elemental.exe
+     1>Done Building Project "E:\STORAGE\Projects\Elemental\Source\proj.win32\Elemental.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.83
